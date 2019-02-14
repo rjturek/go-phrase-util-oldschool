@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/rjturek/go-phrase-util-non-mod/rjtphrasenonmod"
+	"github.com/rjturek/go-phrase-util-oldschool/rjtphraseoldschool"
 )
 
 func GetPhrase() string {
@@ -11,5 +11,5 @@ func GetPhrase() string {
 
 func main() {
 	fmt.Println(GetPhrase())
-	fmt.Println(rjtphrasenonmod.GetPhrase())
+	fmt.Println(rjtphraseoldschool.GetPhrase())
 }

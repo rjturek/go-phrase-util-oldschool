@@ -1,8 +1,8 @@
-package rjtphrasenonmod
+package rjtphraseoldschool
 
 import "github.com/golang/example/stringutil"
 
-var phrase = "Far away from night-clubs and from saxophones."
+var phrase = "And they only use suspenders in the fall."
 
 func GetPhrase() string {
 	return stringutil.Reverse(stringutil.Reverse(phrase))
